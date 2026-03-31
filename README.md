@@ -1,5 +1,9 @@
 # local-ai-systems-studio
 
+🔥 A Codex skill for planning practical local AI systems across MLX, GGUF, Ollama, and LM Studio.  
+🚀 Guides model and tool selection, deployment paths, hardware-fit tradeoffs, and issue-to-plan conversion.  
+⭐ Helps teams build local LLM workflows with clear priorities and less trial-and-error.
+
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)](./SKILL.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](./LICENSE)
 [![Public Repo](https://img.shields.io/badge/Repo-Public-2563eb?style=flat-square)](https://github.com/however-yir/codex-skill-local-ai-systems-studio)
