@@ -6,7 +6,7 @@
 
 A Codex skill for turning local AI ideas, deployment questions, and workflow problems into practical end-to-end plans.
 
-Use this when the main uncertainty is still about local stack choice, deployment path, model format, or hardware fit. If those decisions are already made and the remaining work is deeper workflow orchestration, `ai-agent-workflow` is usually the better fit.
+Use this when the main uncertainty is still about local stack choice, deployment path, model format, or hardware fit. If those decisions are already made and the remaining work is deeper workflow orchestration, `ai-agent-workflow` is usually the better fit. If the main task becomes creating, rewriting, benchmarking, or optimizing a skill artifact itself, `skill-creator` is usually the better fit.
 
 ## What This Skill Does
 
@@ -44,6 +44,7 @@ Typical outputs:
 
 This skill is not aimed at:
 - purely cloud AI architecture
+- creating or benchmarking a skill artifact itself
 - one-off content writing
 - specialized training pipelines
 - deep backend code changes unrelated to local AI workflows
@@ -54,6 +55,12 @@ This skill is not aimed at:
 - `Help me turn this local AI issue into an execution plan.`
 - `Design a practical local workflow for PDF summary and task extraction.`
 - `Compare model and tool options for a Mac-first local setup.`
+
+## Routing Notes
+
+- Use this skill when the first hard question is still stack choice, deployment path, model format, or hardware fit.
+- If the stack is already mostly chosen and the remaining work is workflow orchestration, route to `ai-agent-workflow`.
+- If the task becomes "create this as a skill", "improve this skill", or "benchmark this skill", route to `skill-creator`.
 
 ## Repository Structure
 
