@@ -1,5 +1,10 @@
 # local-ai-systems-studio
 
+[![Codex Skill](https://img.shields.io/badge/Codex-Skill-111827?style=flat-square)](./SKILL.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](./LICENSE)
+[![Public Repo](https://img.shields.io/badge/Repo-Public-2563eb?style=flat-square)](https://github.com/however-yir/codex-skill-local-ai-systems-studio)
+[![Last Commit](https://img.shields.io/github/last-commit/however-yir/codex-skill-local-ai-systems-studio?style=flat-square)](https://github.com/however-yir/codex-skill-local-ai-systems-studio/commits/main)
+
 > Plan, compare, deploy, and structure local AI systems without overengineering them.
 
 中文简介：这是一个面向本地 AI 系统规划的 Codex skill，适合把问题定义、模型与工具选择、本地部署路径、工作流设计和执行计划串成一条完整链路。
